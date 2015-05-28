@@ -1,0 +1,60 @@
+body {
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar {
+    background-color: #444;
+}
+.project-title {
+    font-size: 30px;
+}
+.project-sentence {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #8f8f8f;
+}
+.class-adder {
+
+}
+.classes {
+    margin-top: 10px;
+    clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+.classes li {
+    background-color: #ddd;
+  border: 1px solid #d8d8d8;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 20px;
+}
+.adder {
+   
+    background: rgba(200,200,200,0.1);
+    
+}
+.sched-btn {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+.option-sched li {
+    display: inline;
+}
+.adder input {
+    width: 400px;
+}
+.remove-btn {
+    margin-top: 3px;
+}
+

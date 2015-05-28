@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Project Easy Sched
+        </title>
+ <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- nav bar-->
+        <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="project-title navbar-brand" href="#">Easy Sched</a>
+        <div class=" project-sentence pull-left"> Make your college life infinitely easier.</div>
+
+
+    </div>
+    <div>
+      <ul class="nav navbar-nav pull-right">
+          <li><a href="home.html">Home</a></li>
+          <li class="active"><a href="#" data-toggle ="dropdown"
+              class ="dropdown-toggle">Schedding</a>
+          <ul class="dropdown-menu list-group">
+              <li class="list-group-item">
+              <a href="schedding.html" class= "active">Primary</a>
+           </li>
+           <li class="active list-group-item">
+               <a href="#">Preference</a>
+           </li>
+          </ul>
+          </li>
+            
+      </ul>
+    </div>
+  </div>
+</nav> <!-- nav bar closed -->
+    
+    <div class="container">
+    <div class="adder jumbotron">
+        <div class ="row">
+            <div class="form-group col-sm-6">
+            <lable for="class-code">Enter your class code (e.g MATH):</lable>
+            <input type="text" class="text-box form-control" id="class-code">
+            <br/>
+            <lable for="class-number">Enter your class number(e.g 121):</lable>
+            <input type="text" class="text-box form-control" id ="class-number">
+            <br/>
+            <a href"#" class ="add-btn btn btn-success">Add
+                <span class="glyphicon glyphicon-plus"></span>
+            </a>
+
+
+        </div>
+        <div class="col-sm-6">
+            <form>
+       <div class="checkbox">
+    <label>
+      <input type="checkbox" id ="myCheckBox">Option 1
+    </label>
+  </div>   
+          <div class="checkbox">
+    <label>
+      <input type="checkbox" id ="myCheckBox">Option 2
+    </label>
+  </div>
+  <div class="checkbox">
+    <label>
+        <input type="checkbox" id ="myCheckBox">Option 3
+    </label>
+  </div>
+            
+            </form>
+               </div>
+    </div>
+    <div>
+     <ul class="classes"></ul>
+    </div>
+    </div>
+    </div>
+
+    <div>
+        <a href="#" class="sched-btn btn btn-success center-block">Sched!</a>
+    </div>
+    
+    <!-- jQuery library -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!-- JQuery function -->
+    <script src = "assets/js/app.js"></script>
+
+
+    </body>
+</html>
+
